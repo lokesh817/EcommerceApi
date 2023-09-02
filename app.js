@@ -15,8 +15,6 @@ const port = process.env.PORT || 8000;
 // Create an Express app
 const app = express();
 
-// Create an HTTP server instance
-const server = http.createServer();
 
 // Use body-parser to parse JSON requests
 app.use(bodyParser.json());
